@@ -4,13 +4,13 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Componentes do Grupo
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Henrique Luisi Fernandes Pinto 11.221.068-7
+- Francisco Ribeiro Silva Lima   11.120.479-8 
+- Igor Croce Holanda             11.221.001-8
 
 ## Resumo
 
-Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
+Wash-o-bot é um robô capaz
 
 ## Introdução
 
