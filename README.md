@@ -28,33 +28,33 @@ Pessoas com mobilidade reduzida
 
 ### Personas
 
-## Persona Primária: Adulto com rotina intensa
+### Persona Primária: Adulto com rotina intensa
 Idade: 25–45 anos
 Trabalha em período integral
 Mora sozinho ou com família pequena
 Valoriza praticidade e tecnologia
 
-# Informações necessárias:
+### Informações necessárias:
 Frequência de lavagem
 Preferências de lavagem (tons escuros, pesado, cores separadas)
 Horários para operação
 
-## Persona Secundária: Pessoas com Mobilidade Reduzida
+### Persona Secundária: Pessoas com Mobilidade Reduzida
 Pode possuir limitações motoras permanentes ou temporárias
 Necessita minimizar esforço físico
 
-# Informações necessárias:
+### Informações necessárias:
 Nível de autonomia desejado
 Configuração de comandos por voz ou aplicativo
 Horários para operação
 Preferência de lavagem
 
-## Persona Terciária: Pessoa idosa
+### Persona Terciária: Pessoa idosa
 Idade: 60+
 Pode ter limitações físicas
 Busca autonomia dentro de casa
 
-# Informações necessárias:
+### Informações necessárias:
 Sensibilidade a ruídos
 Complexidade da interface
 Preferências de lavagem (tons escuros, pesado, cores separadas)
