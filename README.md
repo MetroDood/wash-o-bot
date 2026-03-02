@@ -1,4 +1,4 @@
-# **Nome do Robô:** Aplicação do robô
+# **Wash-o-bot:** Aplicação do robô
 
 Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interação Humano-Robô (IHR) (CCR230) do curso de Engenharia de Robôs, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
@@ -9,28 +9,56 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 - Igor Croce Holanda             11.221.001-8
 
 ## Resumo
-
-Wash-o-bot é um robô capaz
+Wash-o-Bot é um robô doméstico autônomo capaz de coletar roupas, separá-las por tipo e cor, realizar o processo completo de lavagem e secagem, e organizar as peças ao final do ciclo.
 
 ## Introdução
 
-- Apresente uma contextualização para o problema que o seu robô irá resolver e por quê esse tipo de robô é necessário hoje na sociedade.
-- Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
-- Em uma única frase, resuma o objetivo do seu robô.
-- Que tipo de experiência o robô deve proporcionar para os usuários?
+A rotina doméstica demanda tempo e organização, sendo a lavagem de roupas uma tarefa recorrente e muitas vezes negligenciada por aqueles que possuem rotinas corridas. O Wash-o-Bot foi projetado para automatizar completamente o processo de cuidado com roupas, desde a coleta até a finalização.
+
+Objetivo do robô: Automatizar integralmente o processo de lavagem de roupas de forma eficiente, intuitiva e confiável.
+O robô deve proporcionar uma experiência prática, confiável e simples, exigindo mínima intervenção do usuário.
 
 ## Publico Alvo
 
-- Determine o seu público alvo:
+Usuários domésticos que buscam otimizar tempo e reduzir esforço em tarefas domésticas.
+
+Adultos com rotina intensa de trabalho
+Idosos
+Pessoas com mobilidade reduzida
 
 ### Personas
 
-- Descreva as personas que irão interagir com o robô. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o robô deve saber antes de iniciar a tarefa?
+##Persona Primária: Adulto com rotina intensa
+Idade: 25–45 anos
+Trabalha em período integral
+Mora sozinho ou com família pequena
+Valoriza praticidade e tecnologia
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+#Informações necessárias:
+Frequência de lavagem
+Preferências de lavagem (tons escuros, pesado, cores separadas)
+Horários para operação
+
+##Persona Secundária: Pessoas com Mobilidade Reduzida
+Pode possuir limitações motoras permanentes ou temporárias
+Necessita minimizar esforço físico
+
+#Informações necessárias:
+Nível de autonomia desejado
+Configuração de comandos por voz ou aplicativo
+Horários para operação
+Preferência de lavagem
+
+##Persona Terciária: Pessoa idosa
+Idade: 60+
+Pode ter limitações físicas
+Busca autonomia dentro de casa
+
+#Informações necessárias:
+Sensibilidade a ruídos
+Complexidade da interface
+Preferências de lavagem (tons escuros, pesado, cores separadas)
+Horários para operação
 
 ### Mapa de empatia
 
