@@ -1,0 +1,173 @@
+<robot name="pi_robot">
+
+	<link name="basket">
+  		<visual>
+          	<geometry>
+            	<box size="0.6 0.4 0.6"/>
+            </geometry>
+        </visual>
+	</link>
+
+	<link name="torso">
+  		<visual>
+          	<geometry>
+            	<box size="0.8 0.4 0.2"/>
+            </geometry>
+        </visual>
+	</link>
+
+	<link name="front_right_wheel">
+   		<visual>
+			<origin xyz="0 0 0" rpy="1.57 0 0"/>
+     		<geometry>
+       			<cylinder length="0.05" radius="0.1"/>
+     		</geometry>
+   		</visual>
+  	</link>
+
+	<link name="front_left_wheel">
+   		<visual>
+			<origin xyz="0 0 0" rpy="1.57 0 0"/>
+     		<geometry>
+       			<cylinder length="0.05" radius="0.1"/>
+     		</geometry>
+   		</visual>
+  	</link>
+
+	<link name="rear_right_wheel">
+   		<visual>
+			<origin xyz="0 0 0" rpy="1.57 0 0"/>
+     		<geometry>
+       			<cylinder length="0.05" radius="0.1"/>
+     		</geometry>
+   		</visual>
+  	</link>
+
+	<link name="rear_left_wheel">
+   		<visual>
+			<origin xyz="0 0 0" rpy="1.57 0 0"/>
+     		<geometry>
+       			<cylinder length="0.05" radius="0.1"/>
+     		</geometry>
+   		</visual>
+  	</link>
+
+
+	<!-- MANIPULADOR LINKS -->
+
+	<link name="link1">
+		<visual>
+			<origin xyz="0 0 0.2"/>
+			<geometry>
+				<cylinder length="0.4" radius="0.05"/>
+			</geometry>
+		</visual>
+	</link>
+
+	<link name="link2">
+		<visual>
+			<origin xyz="0 0 0.2"/>
+			<geometry>
+				<cylinder length="0.4" radius="0.05"/>
+			</geometry>
+		</visual>
+	</link>
+
+	<link name="link3">
+		<visual>
+			<origin xyz="0 0 0.2"/>
+			<geometry>
+				<cylinder length="0.4" radius="0.05"/>
+			</geometry>
+		</visual>
+	</link>
+
+	<link name="link4">
+		<visual>
+			<origin xyz="0 0 0.15"/>
+			<geometry>
+				<cylinder length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+	</link>
+
+
+	<!-- ligação torso ao basket -->
+
+	<joint name="torso_to_basket" type="fixed">
+    	<origin xyz="0.4 0 0.1" rpy="0 1.57 0"/>
+   		<parent link="basket"/>
+    	<child link="torso"/>
+  	</joint>
+
+
+	<!-- rodas -->
+
+	<joint name="front_right_wheel_to_basket" type="revolute">
+    	<origin xyz="0.2 -0.225 -0.3" rpy="0 1.57 0"/>
+   		<parent link="basket"/>
+    	<child link="front_right_wheel"/>
+    	<axis xyz="0 0 1"/>
+    	<limit effort="30" velocity="5.0" lower="-100" upper="100"/>
+  	</joint>
+
+	<joint name="front_left_wheel_to_basket" type="revolute">
+    	<origin xyz="0.2 0.225 -0.3" rpy="0 1.57 0"/>
+   		<parent link="basket"/>
+    	<child link="front_left_wheel"/>
+    	<axis xyz="0 0 1"/>
+    	<limit effort="30" velocity="5.0" lower="-100" upper="100"/>
+  	</joint>
+
+	<joint name="rear_right_wheel_to_basket" type="revolute">
+    	<origin xyz="-0.2 -0.225 -0.3" rpy="0 1.57 0"/>
+   		<parent link="basket"/>
+    	<child link="rear_right_wheel"/>
+    	<axis xyz="0 0 1"/>
+    	<limit effort="30" velocity="5.0" lower="-100" upper="100"/>
+  	</joint>
+
+	<joint name="rear_left_wheel_to_basket" type="revolute">
+    	<origin xyz="-0.2 0.225 -0.3" rpy="0 1.57 0"/>
+   		<parent link="basket"/>
+    	<child link="rear_left_wheel"/>
+    	<axis xyz="0 0 1"/>
+    	<limit effort="30" velocity="5.0" lower="-100" upper="100"/>
+  	</joint>
+
+
+	<!-- MANIPULADOR 4R -->
+
+	<joint name="joint1" type="revolute">
+		<origin xyz="0 0 0.1"/>
+		<parent link="torso"/>
+		<child link="link1"/>
+		<axis xyz="0 1 0"/>
+		<limit effort="20" velocity="2.0" lower="-1.57" upper="1.57"/>
+	</joint>
+
+	<joint name="joint2" type="revolute">
+		<origin xyz="0 0 0.4"/>
+		<parent link="link1"/>
+		<child link="link2"/>
+		<axis xyz="0 1 0"/>
+		<limit effort="20" velocity="2.0" lower="-1.57" upper="1.57"/>
+	</joint>
+
+	<joint name="joint3" type="revolute">
+		<origin xyz="0 0 0.4"/>
+		<parent link="link2"/>
+		<child link="link3"/>
+		<axis xyz="0 1 0"/>
+		<limit effort="20" velocity="2.0" lower="-1.57" upper="1.57"/>
+	</joint>
+
+	<joint name="joint4" type="revolute">
+		<origin xyz="0 0 0.4"/>
+		<parent link="link3"/>
+		<child link="link4"/>
+		<axis xyz="0 1 0"/>
+		<limit effort="20" velocity="2.0" lower="-1.57" upper="1.57"/>
+	</joint>
+
+</robot>
