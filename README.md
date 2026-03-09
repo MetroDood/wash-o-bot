@@ -188,8 +188,6 @@ O Wash-o-Bot possui baixo nível de características antropomórficas, focando m
 
 Esse padrão tende a ser mais aceito em robôs domésticos voltados para tarefas utilitárias, pois transmite eficiência e evita expectativas irreais sobre comportamento humanoide.
 
-- Quais o design mais apropriado para o robô deste projeto? Modele o seu robô com desenhos de formas primitivas (caixas, cilindros, esferas)
-
 <!-- ![Washobot](washobot.jpg) -->
 <img alt="Washobot" src="washobot.jpg" height="300"/>
 
