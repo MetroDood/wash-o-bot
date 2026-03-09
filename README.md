@@ -82,54 +82,116 @@ Preferências de lavagem (tons escuros, pesado, cores separadas)
 
 Horários para operação
 
-### Mapa de empatia
+### Mapa de empatia - Persona Primaria - Adulto de Rotina Intensa
 
-![Mapa de empatia](empatia.png)
+![Mapa de empatia Primaria](empatia_primaria.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com o robô.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação robô. Quais expectativas o usuário cria sobre o robô?
-  Que tipo de robô mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o robô. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o robô satisfaz?
+### Mapa de empatia - Persona Secundaria - Idosos
+
+![Mapa de empatia Secundaria](empatia_secundaria.png)
 
 ## Contexto de uso
 
-- Descreva o ambiente em que o robô interage com os usuários
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente o robô deve saber antes de iniciar a tarefa?
+O Wash-o-Bot opera em ambientes domésticos, como casas e apartamentos, principalmente em quartos, banheiros e áreas de lavanderia.
+O robô interage com o usuário durante tarefas rotineiras do dia a dia, em um ambiente onde roupas podem estar espalhadas ou acumuladas em cestos.
+
+### Contexto social, econômico e cultural
+
+Rotinas cada vez mais ocupadas, com pouco tempo para tarefas domésticas.
+Crescente adoção de tecnologias de automação residencial.
+Interesse por soluções que aumentem conforto e produtividade em casa.
+
+
+### Informações que o robô precisa saber sobre o ambiente
+- Localização da lavanderia ou máquina de lavar.
+- Áreas da casa onde roupas podem estar (quarto, banheiro, cesto).
+- Obstáculos no ambiente (móveis, escadas, objetos no chão).
+- Tipos de superfície para navegação (piso, tapete).
 
 ## Jornada do usuário
 
-- Criar uma narrativa para o o seu robô e o usuário.
-- Determine o passo a passo que o usuário realiza desde o primeiro até o último encontro com robô na realização da tarefa.
-- O que está acontecendo com o ambiente quando o robô está interagindo com o usuário?
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa evolui? Como a tarefa termina?
-- Enfatize todos os momentos em que acontece uma interação verbal, não-verbal e espacial.
+Depois de um dia corrido, ao chegar em casa, o usuário percebe que há roupas acumuladas no quarto ou na lavanderia. Para evitar realizar a tarefa manualmente, ele ativa o Wash-o-Bot por comando de voz ou aplicativo no celular, solicitando o início da lavagem. O robô confirma o comando por meio de um sinal (sonoro ou visual).
+Em seguida, o Wash-o-Bot se desloca pela casa utilizando seus sensores para localizar e coletar roupas no chão ou em cestos. Durante esse processo, o robô separa as peças de acordo com características como cor ou tipo de tecido. Depois de coletar as roupas, ele se dirige à lavanderia e inicia automaticamente o ciclo de lavagem. Após a lavagem, o robô realiza a secagem das roupas e organiza as peças em um local previamente definido pelo usuário. Ao final do processo, o Wash-o-Bot envia uma notificação informando que a tarefa foi concluída, encerrando a interação com o usuário.
 
-## Análise de concorrência
+# Análise de concorrência
 
-- Pesquise robôs existentes atualmente que possam fazer a tarefa deste projeto.
-- Selecione pelo menos 3 robôs diferentes que podem fazer essa tarefa.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
+## Samsung Bot Handy
+
+### Pontos positivos
+
+- Capacidade de manipular objetos domésticos.
+  
+- Uso de visão computacional.
+  
+- Integração com casa inteligente.
+  
+- Braço robótico com seis graus de liberdade
+
+### Pontos negativos
+
+- Ainda em desenvolvimento.
+
+- Alto custo esperado.
+
+## FoldiMate - Fora do Mercado em 2021
+
+### Pontos positivos
+- Automatiza a etapa de dobrar roupas.
+
+- Reduz o tempo gasto após a lavagem.
+
+### Pontos negativos
+
+- Não coleta nem lava roupas.
+
+- Muito manual em comparação ao Wash-o-Bot.
+
+- Retirado do mercado por baixa lucratividade
+
+## Laundroid - Seven Dreamers - Fora do Mercado em 2021
+
+### Pontos positivos
+
+- Uso de inteligência artificial para reconhecer roupas.
+
+- Automatiza a organização das peças.
+
+## Pontos negativos
+
+- Equipamento grande e caro.
+
+- Não realiza coleta ou lavagem completa.
+
+- Requer manuseio humano
+
+## Comparação com o Wash-o-Bot
+
+Existem soluções que automatizam partes do processo de lavanderia, mas poucas realizam todo o fluxo de forma autônoma. O Wash-o-Bot se diferencia por integrar:
+
+- coleta de roupas
+
+- separação automática
+
+- lavagem
+
+- secagem
+
+- organização final
 
 ## Design
 
-- Pense nas características de Affordances do seu robô. Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
-- Discuta o papel das expectativas do usuário no projeto de um robô. Qual a importância e pontos a serem considerados se você quiser vender esse robô  seu robô?
-- O seu robô tem um padrão com mais ou menos características antropomórficas? Qual padrão é mais aceito pela sociedade dentro do projeto que você está desenvolvendo?
+O Wash-o-Bot foi projetado para possuir affordances claras, permitindo que o usuário compreenda facilmente como interagir com o robô. Entre essas características estão comandos simples por voz ou aplicativo, indicadores luminosos para mostrar o estado da tarefa e compartimentos de fácil acesso para manipulação de roupas, além do braço com seis graus de liberdade.
+
+Em relação à acessibilidade, o robô deve considerar usuários com diferentes necessidades, incluindo pessoas idosas ou com mobilidade reduzida. Para isso, o sistema deve possuir interface simples, comandos intuitivos, feedback visual ou sonoro, além de minimizar a necessidade de esforço físico.
+
+O Wash-o-Bot possui baixo nível de características antropomórficas, focando mais em funcionalidade do que em aparência humana, com a única característica similar sendo o braço.
+
+Esse padrão tende a ser mais aceito em robôs domésticos voltados para tarefas utilitárias, pois transmite eficiência e evita expectativas irreais sobre comportamento humanoide.
+
 - Quais o design mais apropriado para o robô deste projeto? Modele o seu robô com desenhos de formas primitivas (caixas, cilindros, esferas)
 
-<!-- ![Partes do robô](partes_do_robo.png) -->
-<!-- ![Robô](robo.png) -->
-<img alt="Partes do robô" src="partes_do_robo.png" height="200"/>
-<img alt="Robô" src="robo.png" height="200"/>
+<!-- ![Washobot](washobot.jpg) -->
+<img alt="Washobot" src="washobot.jpg" height="300"/>
 
 ## Ações do robô
 
