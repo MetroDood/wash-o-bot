@@ -1,4 +1,4 @@
-<robot name="pi_robot">
+<robot name="wash_bot">
 
 	<link name="basket">
   		<visual>
@@ -169,5 +169,6 @@
 		<axis xyz="0 1 0"/>
 		<limit effort="20" velocity="2.0" lower="-1.57" upper="1.57"/>
 	</joint>
+
 
 </robot>
