@@ -48,7 +48,7 @@ Preferências de lavagem (tons escuros, pesado, cores separadas)
 
 Horários para operação
 
-### Persona Secundária: Pessoas com Mobilidade Reduzida
+### Persona Primária 2: Pessoas com Mobilidade Reduzida
 
 Pode possuir limitações motoras permanentes ou temporárias
 
@@ -64,7 +64,7 @@ Horários para operação
 
 Preferência de lavagem
 
-### Persona Terciária: Pessoa idosa
+### Persona Secundária: Pessoa idosa
 
 Idade: 60+
 
@@ -191,21 +191,91 @@ Esse padrão tende a ser mais aceito em robôs domésticos voltados para tarefas
 <!-- ![Washobot](washobot.jpg) -->
 <img alt="Washobot" src="washobot.jpg" height="300"/>
 
-## Ações do robô
-
-- Para cada ação:
-  - Descreva a ação.
-  - Determine os pré-requisitos para que a ação aconteça
-  - Determine o que se espera que seja modificado no ambiente quando a ação é finalizada
-
 ## Interações do robô
 
 ### Espacial
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+### Espacial
+
+#### Interação 1 – Aproximação do usuário
+
+- **Descrição da interação**
+
+O Wash-o-Bot se aproxima do usuário quando precisa iniciar uma interação direta, como confirmar o início de uma tarefa ou solicitar informações adicionais.  
+A aproximação respeita princípios de proxêmica, mantendo uma distância confortável para o usuário (espaço social ou pessoal), evitando invasão do espaço íntimo.
+
+- **Pré-requisitos**
+
+O robô deve:
+- Detectar a presença do usuário por meio de sensores ou visão computacional.
+- Estimar sua posição no ambiente utilizando técnicas de localização.
+- Garantir que o caminho até o usuário esteja livre de obstáculos.
+
+- **Resposta emocional esperada**
+
+O usuário deve sentir que o robô se aproxima de forma natural e respeitosa, transmitindo segurança e conforto, sem causar sensação de invasão de espaço pessoal.
+
+
+---
+
+#### Interação 2 – Navegação pelo ambiente doméstico
+
+- **Descrição da interação**
+
+Durante a coleta de roupas ou deslocamento entre cômodos, o Wash-o-Bot navega pelo ambiente doméstico evitando obstáculos como móveis, paredes e objetos no chão.  
+Além disso, o robô considera a presença de pessoas no ambiente, ajustando sua trajetória para não interromper atividades humanas.
+
+- **Pré-requisitos**
+
+O robô deve:
+- Possuir mapa do ambiente doméstico.
+- Utilizar sensores para detectar obstáculos estáticos e dinâmicos.
+- Executar planejamento de trajetória para deslocamento entre pontos da casa.
+
+- **Resposta emocional esperada**
+
+O usuário deve perceber o robô como seguro e previsível, confiando que ele não irá colidir com objetos ou pessoas.
+
+
+---
+
+#### Interação 3 – Navegação socialmente apropriada
+
+- **Descrição da interação**
+
+Quando pessoas estão presentes, o Wash-o-Bot adapta sua navegação para não interromper interações humanas ou atividades do usuário, como conversar com outra pessoa ou utilizar objetos do ambiente.
+
+- **Pré-requisitos**
+
+O robô deve:
+- Detectar pessoas no ambiente.
+- Identificar áreas de interação humana.
+- Ajustar sua rota para contornar grupos de pessoas ou zonas de interação.
+
+- **Resposta emocional esperada**
+
+Os usuários devem perceber o robô como educado e respeitoso, evitando a sensação de que o robô está “atrapalhando” a interação humana.
+
+
+---
+
+#### Interação 4 – Posicionamento durante a coleta de roupas
+
+- **Descrição da interação**
+
+Ao coletar roupas no chão ou em cestos, o Wash-o-Bot posiciona-se próximo ao objeto mantendo distância adequada do usuário e dos móveis ao redor.  
+Esse posicionamento garante que o robô execute a tarefa sem bloquear passagens ou incomodar o usuário.
+
+- **Pré-requisitos**
+
+O robô deve:
+- Identificar a posição das roupas no ambiente.
+- Calcular uma posição adequada para manipulação do objeto.
+- Manter distância segura de pessoas e objetos.
+
+- **Resposta emocional esperada**
+
+O usuário deve perceber o robô como eficiente e organizado, executando a tarefa de forma clara e sem causar desconforto no ambiente doméstico.
 
 ### Verbal
 
