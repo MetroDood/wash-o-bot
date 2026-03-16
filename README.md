@@ -31,7 +31,7 @@ Pessoas com mobilidade reduzida
 ### Personas
 
 ### Persona Primária: Adulto com rotina intensa
-![Persona Adulta](adulto_persona.png)
+![Persona Adulta](adulto_persona.jpg)
 
 Idade: 25–45 anos
 
@@ -50,7 +50,7 @@ Preferências de lavagem (tons escuros, pesado, cores separadas)
 Horários para operação
 
 ### Persona Primária 2: Pessoas com Mobilidade Reduzida
-![Persona Mobilidade](persona2.png)
+![Persona Mobilidade](persona2.avif)
 
 Pode possuir limitações motoras permanentes ou temporárias
 
@@ -68,7 +68,7 @@ Preferência de lavagem
 
 ### Persona Secundária: Pessoa idosa
 
-![Persona Idosa](persona3.png)
+![Persona Idosa](persona3.webp)
 
 Idade: 60+
 
