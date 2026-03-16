@@ -192,9 +192,6 @@ Esse padrão tende a ser mais aceito em robôs domésticos voltados para tarefas
 <img alt="Washobot" src="washobot.jpg" height="300"/>
 
 ## Interações do robô
-
-### Espacial
-
 ### Espacial
 
 #### Interação 1 – Aproximação do usuário
