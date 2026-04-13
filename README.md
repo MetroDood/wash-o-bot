@@ -280,7 +280,7 @@ O usuário deve perceber o robô como eficiente e organizado, executando a taref
 
 ---
 
-### Verbal
+## Verbal
 **O robo deve ter um tom tranquilo e agradável, respondendo de forma direta mas sempre buscando a complitude da informação para não cometer erros**
 
 #### Interação 1 – Ativação do robô por comando de voz
