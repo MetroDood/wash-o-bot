@@ -278,12 +278,76 @@ O robô deve:
 
 O usuário deve perceber o robô como eficiente e organizado, executando a tarefa de forma clara e sem causar desconforto no ambiente doméstico.
 
-### Verbal
+---
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+### Verbal
+**O robo deve ter um tom tranquilo e agradável, respondendo de forma direta mas sempre buscando a complitude da informação para não cometer erros**
+
+#### Interação 1 – Ativação do robô por comando de voz
+- Usuário: "Wash-o-Bot, pode começar a lavar minhas roupas?"
+- Robô: "Entendido. Deseja que eu inicie a coleta de roupas agora?"
+- Usuário: "Wash-o-Bot, começar a lavar roupas"
+- Robô: "Não entendi. Deseja que eu inicie a coleta de roupas agora?"
+- Usuario: "Sim!"
+- Robô: "Entendido! Iniciando coleta de roupas"
+
+---
+
+#### Interação 2 – Confirmação de preferências de lavagem
+- Robô: "Identifiquei roupas claras e escuras. Deseja separar por cor?"
+- Usuário: "Sim."
+- Robô: "Perfeito. Deseja lavagem delicada para peças sensíveis?"
+- Usuário: "Não."
+- Robô: "Entendido. Vou separar por cor e usar o ciclo padrão."
+
+---
+
+#### Interação 3 – Identificação de lavagem
+- Usuário: "Lave roupas de seda.  "
+- Robô: "Entendido. Vou selecionar lavagem delicada para roupas de seda. Deseja usar água fria e baixa rotação?"
+- Usuário: "Sim."  
+- Robô: "Perfeito. Iniciando lavagem delicada para roupas de seda."
+
+---
+
+#### Interação 4 – Higienização da máquina
+- Usuário: "Faça a higienização da máquina."
+- Robô: "Entendido. Deseja que eu inicie a higienização da máquina agora?"
+- Usuário: "Sim."
+- Robô: "Perfeito. Iniciando a higienização da máquina."
+
+---
+
+#### Interação 5 – Separação de tecidos
+- Usuário: "Separe as roupas por tecido."
+- Robô: "Entendido. Vou organizar as peças por tipo de tecido antes da lavagem. Deseja priorizar tecidos delicados?"
+- Usuário: "Sim."
+- Robô: "Perfeito. Vou separar primeiro os tecidos delicados."
+
+---
+
+#### Interação 6 – Separação por cores
+- Usuário: "Pegue roupas claras."
+- Robô:" Entendido. Vou coletar e separar as roupas claras primeiro. Deseja lavar as escuras depois?"
+- Usuário:" Sim."
+- Robô: "Perfeito. Vou começar pelas roupas claras."
+
+---
+
+#### Interação 7 – Processo de secagem
+- Usuário: "Pode iniciar a secagem."
+- Robô: "Entendido. Vou iniciar o processo de secagem das roupas. Deseja secagem completa ou modo delicado?"
+- Usuário: "Secagem completa."
+- Robô: "Perfeito. Iniciando secagem completa."
+
+---
+
+#### Interação 8 – Encerramento cordial de contato
+- Robô: "O processo foi concluído com sucesso. Suas roupas já estão lavadas, secas e organizadas."
+- Usuário: "Obrigado."
+- Robô: "De nada. Estou à disposição para a próxima tarefa".
+
+
 
 ### Não-verbal
 
