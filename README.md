@@ -120,7 +120,7 @@ Em seguida, o Wash-o-Bot se desloca pela casa utilizando seus sensores para loca
 # Análise de concorrência
 
 ## Samsung Bot Handy
-
+![Zamzung](samsung.png)
 ### Pontos positivos
 
 - Capacidade de manipular objetos domésticos.
@@ -138,7 +138,7 @@ Em seguida, o Wash-o-Bot se desloca pela casa utilizando seus sensores para loca
 - Alto custo esperado.
 
 ## FoldiMate - Fora do Mercado em 2021
-
+![FoldiM8](FOLDIMATE_MACHINE.webp)
 ### Pontos positivos
 - Automatiza a etapa de dobrar roupas.
 
@@ -153,7 +153,7 @@ Em seguida, o Wash-o-Bot se desloca pela casa utilizando seus sensores para loca
 - Retirado do mercado por baixa lucratividade
 
 ## Laundroid - Seven Dreamers - Fora do Mercado em 2021
-
+![Laundroid](image.png)
 ### Pontos positivos
 
 - Uso de inteligência artificial para reconhecer roupas.
