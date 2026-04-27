@@ -351,10 +351,46 @@ O usuário deve perceber o robô como eficiente e organizado, executando a taref
 
 ### Não-verbal
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+#### Interação 1 - Confirmação visual ou auditiva de ativação
+- Descrição: Ao receber um comando (voz/app), o robô emite um sinal visual ou buzzer, como um anel de luz ou LED que muda de cor (ex: azul → verde), indicando que o comando foi entendido e a tarefa será iniciada.
+- Requisitos: Sistema de detecção de comando ativado (voz ou app); Led/Display/buzzer.
+- Resposta emocional esperada: Usuário entende que robô está funcionando.
+
+#### Interação 2 - Roupas lavando - auditivo
+- Descrição: Fim da tarefa do robô até a máquina de lavar, o Wash-o-bot emite um sinal sonoro, alertando da o fim da tarefa 
+- Requisitos: Sistema de buzzer.
+- Resposta emocional esperada: Usuário sabe que as roupas estão lavando agora.
+
+#### Interação 3 - Caminho Bloqueado - Auditivo e Visual
+- Descrição: Na jornada para coleta de roupas, possui um obstáculo que não consegue ultrapassar, neste caso, realiza um efeito sonoro de alerta, além de mostrar um ícone de "atenção" (exclamação) 
+- Requisitos: Sistema de buzzer, caminho bloqueado, LEDs.
+- Resposta emocional esperada: Usuário tem ciência de que deve retirar as interrupções do caminho.
+
+#### Interação 4 – Evitar humanos
+- Descrição: Ao detectar uma pessoa no caminho, o robô desacelera, altera sua rota suavemente e mantém distância, sem movimentos bruscos.
+- Requisitos: Sensores de detecção de pessoas. Planejamento dinâmico de trajetória.
+- Resposta emocional esperada: Percepção de respeito e segurança, evitando incômodo ou susto.
+
+#### Interação 5 - Pegando Roupas
+- Descrição: Enquanto trabalhando em coleta, um símbolo de "coleta" aparece tanto no app quanto no display;
+- Requisitos: Display, Integração App;
+- Resposta emocional esperada: Usuário sabe que o robô está no processo de coleta
+
+#### Interação 6 - Estendendo Roupas
+- Descrição: Enquanto trabalhando em estender as roupas, um símbolo de "varal" aparece tanto no app quanto no display;
+- Requisitos: Display, Integração App;
+- Resposta emocional esperada: Usuário sabe que o robô está no processo de estender roupas
+
+#### Interação 7 - Dobrando Roupas
+- Descrição: Enquanto trabalhando em dobrar as roupas, um símbolo de "camisa dobrada" aparece tanto no app quanto no display;
+- Requisitos: Display, Integração App;
+- Resposta emocional esperada: Usuário sabe que o robô está dobrando as roupas.
+
+#### Interação 8 - Fim de tarefa
+- Descrição: Fim da tarefa do robô em geral, o Wash-o-bot emite um sinal sonoro, alertando da o fim da tarefa, além de demonstrar em seu display a cor verde (como concluído) e envia uma notificação no app; 
+- Requisitos: Sistema de buzzer, Display, Integração App;
+- Resposta emocional esperada: Usuário entende que o robô terminou a tarefa
+
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
