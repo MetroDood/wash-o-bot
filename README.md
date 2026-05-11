@@ -392,6 +392,13 @@ O usuário deve perceber o robô como eficiente e organizado, executando a taref
 - Resposta emocional esperada: Usuário entende que o robô terminou a tarefa
 
 
+
+### Molic
+
+
+<!-- ![Molic](molic.png) -->
+<img alt="Molic" src="molic.png" height="500"/>
+
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
 <!-- TODOs:
