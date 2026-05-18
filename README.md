@@ -30,67 +30,35 @@ Pessoas com mobilidade reduzida
 
 ### Personas
 
-### Persona Primária: Adulto com rotina intensa
+### Persona Primária: Adulto com rotina intensa - José Almeida
 ![Persona Adulta](adulto_persona.jpg)
 
-Idade: 25–45 anos
+José Almeida tem entre 25 e 45 anos e leva uma rotina corrida, trabalha em período integral, cheio de compromissos pessoais e peca na organização da casa. Mora sozinho e busca soluções que tragam praticidade ao dia a dia, valorizando conveniência
 
-Trabalha em período integral
+Seu tempo é limitado, por isso prefere processos simples. Quando o assunto é lavanderia, deseja minimizar esforço e evitar retrabalho. Costuma lavar roupas de acordo com a demanda semanal e se preocupa em manter peças específicas bem cuidadas, especialmente roupas escuras. Também realiza lavagens pesadas para roupas de cama, toalhas e peças de uso intenso.
 
-Mora sozinho ou com família pequena
-
-Valoriza praticidade e tecnologia
-
-### Informações necessárias:
-
-Frequência de lavagem
-
-Preferências de lavagem (tons escuros, pesado, cores separadas)
-
-Horários para operação
-
-### Persona Primária 2: Pessoas com Mobilidade Reduzida
+### Persona Primária 2: Pessoas com Mobilidade Reduzida - Luiza Fonseca
 ![Persona Mobilidade](persona2.avif)
 
-Pode possuir limitações motoras permanentes ou temporárias
+Luiza Fonseca possui limitações motoras permanentes, impossibilitando esforço pesado; busca maior independência nas atividades do cotidiano. Sua rotina exige soluções acessíveis, que reduzam ao máximo o esforço físico necessário para tarefas domésticas.
 
-Necessita minimizar esforço físico
+Para Luiza, Atividades como carregar roupas, configurar ciclos de lavagem ou operar equipamentos manualmente geram desconforto. No contexto da lavanderia, busca uma experiência acessível com funcionalidades como comandos por voz, controle remoto por aplicativo e programação automática de horários. 
 
-### Informações necessárias:
-
-Nível de autonomia desejado
-
-Configuração de comandos por voz ou aplicativo
-
-Horários para operação
-
-Preferência de lavagem
-
-### Persona Secundária: Pessoa idosa
+### Persona Secundária: Pessoa idosa - Dona Vanda
 
 ![Persona Idosa](persona3.webp)
 
-Idade: 60+
+Dona Vanda tem mais de 60 anos e busca manter sua independência e autonomia nas atividades do dia a dia dentro de casa. Apesar de possuir algumas limitações físicas naturais da idade, procura soluções que permitam que continue realizando tarefas domésticas sem depender de outras pessoas.
 
-Pode ter limitações físicas
+Sua rotina costuma ser mais tranquila e previsível. Tecnologias muito complexas ou interfaces confusas podem gerar dificuldade durante o uso. Por isso, Dona Vanda prefere equipamentos intuitivos, com comandos simples e linguagem clara.
 
-Busca autonomia dentro de casa
+Dona Vanda costuma operar equipamentos em horários previsíveis ao longo do dia, evitando períodos noturnos pelo barulho.
 
-### Informações necessárias:
-
-Sensibilidade a ruídos
-
-Complexidade da interface
-
-Preferências de lavagem (tons escuros, pesado, cores separadas)
-
-Horários para operação
-
-### Mapa de empatia - Persona Primaria - Adulto de Rotina Intensa
+### Mapa de empatia - Persona Primaria - Adulto de Rotina Intensa - José Almeida
 
 ![Mapa de empatia Primaria](empatia_primaria.png)
 
-### Mapa de empatia - Persona Secundaria - Idosos
+### Mapa de empatia - Persona Secundaria - Idosos - Dona Vanda
 
 ![Mapa de empatia Secundaria](empatia_secundaria.png)
 
